@@ -1,0 +1,16 @@
+﻿@model IEnumerable<RSSAppWebClient.Models.Article>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Articles</h3>
+        <ul id="article-list">
+            @foreach (var article in Model)
+            {
+                <li><a href="@article.Link" target="_blank">@article.Title</a></li>
+            }
+        </ul>
+    </div>
+</div>

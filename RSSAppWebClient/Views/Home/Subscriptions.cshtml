@@ -1,0 +1,16 @@
+﻿@model IEnumerable<RSSAppWebClient.Models.Channel>
+@{
+    ViewBag.Title = "Subscriptions";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Subscribed RSS</h3>
+        <ul id="article-list">
+            @foreach (var channel in Model)
+            {
+                <li>@Html.ActionLink(channel.Title, "Detail", "Home", new { url = channel.RSS_URL }, null)</li>
+            }
+        </ul>
+    </div>
+</div>

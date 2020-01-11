@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="97ed397d-b7ef-4afb-a21a-16a69bcb6a23" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ArticleService.xsd" MetadataType="Schema" ID="fcc6bf3b-af5f-4f44-9184-7ab0e7902e3b" SourceId="1" SourceUrl="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ArticleService1.xsd" MetadataType="Schema" ID="fb221dc8-d27c-4d90-8895-172cfb220bef" SourceId="1" SourceUrl="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ArticleService2.xsd" MetadataType="Schema" ID="f822a98e-3c23-474b-a206-57b6a77af8a5" SourceId="1" SourceUrl="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ArticleService3.xsd" MetadataType="Schema" ID="0990cd1d-8c6c-4475-8ff6-9aaae0d4e4df" SourceId="1" SourceUrl="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ArticleService.wsdl" MetadataType="Wsdl" ID="9ce97aa2-5bce-478f-95a3-8dd60bd96b0e" SourceId="1" SourceUrl="http://3.130.26.94/RSSBackgroundWorkerBusinessWCF/services/ArticleService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

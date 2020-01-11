@@ -1,0 +1,32 @@
+﻿@model RSSAppWebClient.Models.Channel
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<p>Title: @Model.Title</p>
+<p>RSS Url: @Model.RSS_URL</p>
+<p>Website Link: @Model.Link</p>
+<p>Description: @Model.Description</p>
+
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Link</th>
+    </tr>
+    @foreach (var article in Model.Articles)
+    {
+        <tr>
+            <td>@article.Title</td>
+            <td>@article.Description</td>
+            <td>@article.Link</td>
+        </tr>
+    }
+</table>
+<div class="row">
+    <div class="col-md-2">@Html.ActionLink("Back to List", "Index")</div>
+    <div class="col-md-9"></div>
+    <div class="col-md-1">@Html.ActionLink("Delete", "Delete", "Home", new { url = Model.RSS_URL }, new { @class = "btn btn-danger" })</div>
+</div>
